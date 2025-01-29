@@ -49,6 +49,23 @@
             foreach (var i in startsWithR)
                 Console.WriteLine(i);
             Console.WriteLine("\n\n");
+
+
+
+            // Employee example
+
+            List<Employee> employees = new List<Employee>()
+            {
+                new Employee("John", "Green", 4000),
+                new Employee("Anne", "Green", 6000),
+                new Employee("Mat", "Blue", 7000),
+                new Employee("James", "Indigo", 3000),
+                new Employee("Kristie", "Indigo", 5000),
+                new Employee("John", "Brown", 5500),
+                new Employee("Maggie", "White", 2000)
+            };
+
+
         }
     }
 }
